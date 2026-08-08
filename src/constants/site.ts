@@ -24,36 +24,117 @@ export const aboutLines = [
 
 export const skillGroups = [
   {
-    label: "Programming",
-    items: ["Python", "Java", "SQL"],
+    label: "Programming Languages",
+    items: [
+      "Python",
+      "Java",
+      "SQL",
+      "TypeScript",
+      "JavaScript",
+    ],
   },
+
   {
     label: "Frontend",
-    items: ["React", "Next.js"],
+    items: [
+      "React",
+      "Next.js",
+      "HTML",
+      "CSS",
+      "Tailwind CSS",
+    ],
   },
+
   {
     label: "Backend",
-    items: ["FastAPI", "REST APIs"],
+    items: [
+      "FastAPI",
+      "REST APIs",
+      "WebSockets",
+      "JWT Authentication",
+      "SQLAlchemy",
+      "Alembic",
+      "bcrypt",
+    ],
   },
+
   {
-    label: "Database",
-    items: ["PostgreSQL", "Redis"],
+    label: "Databases & Caching",
+    items: [
+      "PostgreSQL",
+      "Redis",
+      "SQLite",
+    ],
   },
+
   {
-    label: "DevOps",
-    items: ["Docker", "Linux", "Git"],
+    label: "AI & Machine Learning",
+    items: [
+      "LLMs",
+      "RAG",
+      "LangChain",
+      "AI Agents",
+      "Prompt Engineering",
+      "Chatbot Development",
+      "Scikit-learn",
+      "TensorFlow",
+      "PyTorch",
+      "Pandas",
+      "NumPy",
+      "OpenCV",
+      "Matplotlib",
+      "Seaborn",
+    ],
   },
+
   {
-    label: "AI",
-    items: ["LLMs", "LangGraph"],
+    label: "DevOps & Infrastructure",
+    items: [
+      "Docker",
+      "Git",
+      "Linux",
+      "GitHub",
+      "Railway",
+      "Vercel",
+    ],
   },
+
   {
-    label: "Optimization",
-    items: ["RAVE", "Operations Research"],
+    label: "Specialized Skills",
+    items: [
+      "RAVE",
+      "JCP/JCR",
+      "Crew Planning & Rostering",
+      "Rule Engine Development",
+      "Workflow Automation",
+      "Linear Programming",
+      "Integer Programming",
+    ],
   },
 ];
 
 export const builtApplications = [
+  {
+    name: "AuctionHall (auctionhall.in)",
+    description:
+      "Full-stack fantasy cricket auction platform where users create leagues, join via codes, bid on players live, and compete on leaderboards. Features a Redis-backed real-time auction engine, WebSocket-based auction lobbies, secure auth with HTTP-only JWTs and bcrypt, and persistent auction logs in PostgreSQL.",
+    href: "https://auctionhall.in",
+    meta: "Next.js, FastAPI, PostgreSQL, Redis, WebSockets",
+    tags: [
+      "Next.js",
+      "FastAPI",
+      "PostgreSQL",
+      "Redis",
+      "WebSockets",
+      "JWT",
+      "bcrypt",
+      "Real-time",
+      "RapidAPI",
+    ],
+    links: [
+      { label: "Live Demo", href: "https://auctionhall.in" },
+    ],
+  },
   {
     name: "Flatmate Finder",
     description:
@@ -62,10 +143,6 @@ export const builtApplications = [
     meta: "FastAPI, React, PostgreSQL",
     tags: ["FastAPI", "React", "PostgreSQL", "Authentication", "Messaging"],
     links: [
-      { label: "GitHub", href: "https://github.com/Chandreshyy" },
-      { label: "Live Demo", href: "#" },
-      { label: "Architecture", href: "#" },
-      { label: "Read Case Study", href: "#" },
     ],
   },
   {
@@ -76,10 +153,6 @@ export const builtApplications = [
     meta: "Python, LLMs, Telegram Bot",
     tags: ["Python", "LLMs", "Telegram Bot", "Automation", "Human-in-loop"],
     links: [
-      { label: "GitHub", href: "https://github.com/Chandreshyy" },
-      { label: "Live Demo", href: "#" },
-      { label: "Architecture", href: "#" },
-      { label: "Read Case Study", href: "#" },
     ],
   },
 ];
@@ -88,7 +161,6 @@ export const profileMeta = [
   { label: "Role", value: "Lead Engineer" },
   { label: "Team", value: "Operations Technology" },
   { label: "Company", value: "Air India" },
-  { label: "Experience", value: "2+ Years" },
   { label: "Location", value: "Gurugram, India" },
   { label: "Phone", value: siteConfig.phone },
   { label: "Email", value: siteConfig.email },
@@ -104,10 +176,17 @@ export const experience = [
   {
     period: "01",
     title: "Air India - Operations Technology",
-    meta: "Lead Engineer | Jul 2023 - Present",
+    meta: "Lead Engineer | June 2023 - Present",
     description:
-      "Working on crew planning and rostering systems, with a focus on rule implementation, automation, and operational reliability.",
-    tags: ["RAVE", "Python", "Crew Planning", "Optimization", "Automation"],
+      "Develop and maintain large-scale backend applications that automate complex business workflows and optimize operational decision-making. Design software solutions, implement business logic, build data processing pipelines, develop internal tools, and integrate enterprise systems using Python and modern software engineering practices. Focus on writing reliable, scalable, and maintainable software while solving real-world optimization problems across mission-critical production systems.",
+    tags: [
+      "Software Development",
+      "Python",
+      "Backend",
+      "System Design",
+      "Automation",
+      "Optimization",
+    ],
   },
 ];
 
@@ -116,9 +195,17 @@ export const education = {
   degree: "B.Tech in Production and Industrial Engineering",
   period: "2019 - 2023",
   details:
-    "Graduated from IIT Delhi with a focus on optimization, simulation, operations research, and data-driven decision making.",
-  tags: ["IIT Delhi", "Optimization", "Simulation", "Operations Research"],
+    "Developed a strong foundation in computer science fundamentals, algorithms, optimization, machine learning, and mathematical modeling. Built software projects spanning full-stack development, AI, data processing, and optimization while strengthening analytical thinking and system-level problem solving.",
+  tags: [
+    "Data Structures and Algorithms",
+    "Software Engineering",
+    "Machine Learning",
+    "Data Science",
+    "Artificial Intelligence",
+    "Operations Research",
+    "Optimization",
+  ],
 };
 
 export const outsideWork =
-  "Outside of work, I enjoy building side projects, exploring AI technologies, contributing to open-source, and playing basketball.";
+  "Outside work, I enjoy building full-stack products, exploring Generative AI and LLM-powered applications, experimenting with agentic workflows, contributing to open-source, reading books on technology, psychology, and business, and playing basketball.";
